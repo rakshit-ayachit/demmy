@@ -7,4 +7,3 @@ pytesseract==0.3.10
 nltk==3.8.1
 pandas==1.5.3
 passlib==1.7.4
-tesseract-ocr==0.0.1
