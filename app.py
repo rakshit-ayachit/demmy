@@ -19,9 +19,6 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
 
-tesseract_dir = "./Tesseract-OCR/tesseract.exe"
-pytesseract.pytesseract.tesseract_cmd = tesseract_dir
-
 def create_users_table():
     conn = sqlite3.connect('users.db')
     c = conn.cursor()
