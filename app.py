@@ -19,7 +19,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
 
-tesseract_dir = "./models/tesseract.exe"
+tesseract_dir = "./Tesseract-OCR"
 pytesseract.pytesseract.tesseract_cmd = tesseract_dir
 
 def create_users_table():
